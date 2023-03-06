@@ -15,7 +15,8 @@ header{
 }
 
 body{
-    background: linear-gradient(to right, #122957, #155799);
+    background: linear-gradient(to right, #159957, #155799);
+    background: linear-gradient(357deg, rgba(188,191,137,1) 37%, rgba(188,191,137,1) 45%, rgba(188,191,137,1) 51%, rgba(198,224,236,1) 70%);
 }
 
 .container{
