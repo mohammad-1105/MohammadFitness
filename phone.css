@@ -1,0 +1,175 @@
+@media screen and (max-width:1024px) {
+
+    
+
+    .mid-section-image>img {
+        width: 350px;
+    }
+
+    .mid-section {
+        justify-content: space-between;
+    }
+
+    .btn-grad {
+        padding: 8px 34px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mid-section .btn {
+        display: none;
+    }
+
+    #navbar h3 {
+        font-size: 0.6rem;
+    }
+
+    #navbar ul li a {
+        font-size: 0.6rem;
+    }
+
+    #navbar .btn {
+        font-size: 0.6rem;
+        padding: 2px 5px;
+    }
+
+    #navbar ul {
+        gap: 20px;
+    }
+
+    .mid-section {
+        flex-wrap: wrap;
+        gap: 60px;
+        justify-content: center;
+    }
+
+    .pricing-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .pricing-box {
+        width: 80%;
+    }
+
+    .btn-grad {
+        width: 60vw;
+        padding-block: 12px;
+    }
+
+    .the-footer h3 {
+        font-size: 1.3rem;
+    }
+
+    .the-footer span i {
+        font-size: 1rem;
+    }
+
+    .the-footer span {
+        gap: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:520px) {
+
+
+
+    #navbar .btn {
+        display: none;
+    }
+
+    .mid-section .btn {
+        display: block;
+        padding: 6px;
+        width: 90%;
+        background-color: rgba(255, 0, 0, 0.912);
+        border: none;
+        border-radius: 3px;
+        transition-duration: .3s;
+    }
+
+    .mid-section .btn:hover{
+        background-color: rgb(205, 8, 8);
+        color: rgb(255, 255, 255);
+
+    }
+
+    #navbar {
+        flex-wrap: wrap;
+        height: 65px;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    #navbar h3 {
+        font-size: 1.2rem;
+        margin-left: 0px;
+    }
+
+    .content>img {
+        width: 70px;
+    }
+
+    .content span>h2 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .mid-section {
+        padding: 20px;
+    }
+
+    .mid-section-image>img {
+        max-width: 240px;
+    }
+
+    .box-item span h4 {
+        font-size: 2.4rem;
+    }
+
+    .box-item span p {
+        font-size: 1.6rem;
+    }
+
+    .box-item {
+        padding-inline: 6px;
+    }
+
+    .btn-grad {
+        font-size: .62rem;
+    }
+
+    .footer-area {
+        padding-inline: 0px;
+    }
+
+    .footer-area article {
+        font-size: 1rem;
+    }
+
+    .footer-area::before {
+        position: relative;
+        left: 55px;
+    }
+
+    .the-footer h3 {
+        font-size: 1rem;
+    }
+
+    .the-footer span i {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:370px){
+
+    #navbar ul li a{
+        font-size: .9rem;
+    }
+}
